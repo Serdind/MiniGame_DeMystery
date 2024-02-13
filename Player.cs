@@ -1,17 +1,17 @@
 public class Player
 {
-    public int CurrentHitPoints;
+    public string Name;
     public string CurrentLocation;
     public string CurrentWeapon;
+    public int CurrentHitPoints;
     public int MaximumHitPoints;
-    public string Name;
 
-    public Player(int currentHitPoints, string currentLocation, string currentWeapon, int maximumHitPoints, string name)
+    public Player(string name, string currentLocation, string currentWeapon, int currentHitPoints, int maximumHitPoints)
     {
-        CurrentHitPoints = currentHitPoints;
+        Name = name;
         CurrentLocation = currentLocation;
         CurrentWeapon = currentWeapon;
+        CurrentHitPoints = currentHitPoints;
         MaximumHitPoints = maximumHitPoints;
-        Name = name;
     }
 }

@@ -1,11 +1,11 @@
 public class SuperAdventure
 {
-    public Monster CurrentMonster;
     public Player ThePlayer;
+    public Monster CurrentMonster;
 
-    public SuperAdventure(Monster currentMonster, Player thePlayer)
+    public SuperAdventure(Player thePlayer, Monster currentMonster)
     {
-        CurrentMonster = currentMonster;
         ThePlayer = thePlayer;
+        CurrentMonster = currentMonster;
     }
 }

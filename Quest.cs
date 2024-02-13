@@ -1,13 +1,13 @@
 public class Quest
 {
-    public string Description;
     public int ID;
     public string Name;
+    public string Description;
 
-    public Quest(string description, int id, string name)
+    public Quest(int id, string name, string description)
     {
-        Description = description;
         ID = id;
         Name = name;
+        Description = description;
     }
 }
