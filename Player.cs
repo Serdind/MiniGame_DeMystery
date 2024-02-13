@@ -14,5 +14,4 @@ public class Player
         MaximumHitPoints = maximumHitPoints;
         Name = name;
     }
-
 }
