@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Serdi\\Desktop\\New folder (3)\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
+      "projectUniqueName": "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
       "projectName": "MiniProject",
-      "projectPath": "C:\\Users\\Serdi\\Desktop\\New folder (3)\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
+      "projectPath": "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
       "packagesPath": "C:\\Users\\Serdi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Serdi\\Desktop\\New folder (3)\\MiniGame_DeMystery\\MiniProject\\obj\\",
+      "outputPath": "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Serdi\\AppData\\Roaming\\NuGet\\NuGet.Config"

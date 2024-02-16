@@ -12,3 +12,17 @@ C:\Users\Serdi\Desktop\New folder (3)\MiniGame_DeMystery\MiniProject\obj\Debug\n
 C:\Users\Serdi\Desktop\New folder (3)\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\MiniProject.pdb
 C:\Users\Serdi\Desktop\New folder (3)\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\MiniProject.genruntimeconfig.cache
 C:\Users\Serdi\Desktop\New folder (3)\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\ref\MiniProject.dll
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\bin\Debug\net7.0\MiniProject.exe
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\bin\Debug\net7.0\MiniProject.deps.json
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\bin\Debug\net7.0\MiniProject.runtimeconfig.json
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\bin\Debug\net7.0\MiniProject.dll
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\bin\Debug\net7.0\MiniProject.pdb
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\MiniProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\MiniProject.AssemblyInfoInputs.cache
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\MiniProject.AssemblyInfo.cs
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\MiniProject.csproj.CoreCompileInputs.cache
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\MiniProject.dll
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\refint\MiniProject.dll
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\MiniProject.pdb
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\MiniProject.genruntimeconfig.cache
+C:\Users\Serdi\Desktop\Miniproject\MiniGame_DeMystery\MiniProject\obj\Debug\net7.0\ref\MiniProject.dll
