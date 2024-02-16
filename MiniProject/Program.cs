@@ -1,7 +1,8 @@
-public static class Program
+public class Program
 {
     public static void Main()
     {
-        Quest.GetQuest();
+        Player player = new Player(null,"G",null,1,1);
+        Quest.GetQuest(player);
     }
 }

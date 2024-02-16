@@ -11,11 +11,8 @@ public class Quest
         Description = description;
     }
 
-    public static void GetQuest()
+    public static void GetQuest(Player player)
     {
-        Player player = new Player("Serdin", "B", "Sword", 1, 1);
-        List<Quest> playerQuests = new();
-        
         for (int i = 0; i < World.Quests.Count; i++)
         {
             if (player.CurrentLocation == "F")
@@ -28,14 +25,14 @@ public class Quest
 
                     if (anwserQuest.ToLower() == "y")
                     {
-                        Console.WriteLine("You have accepted the quest.");
-                        playerQuests.Add(World.Quests[i]);
-                        //Player Location
+                        Console.WriteLine("You have accepted the quest. Go to Farmer's field(V).");
+                        player.playerQuests.Add(World.Quests[i]);
+                        //Player movement
                     }
                     else
                     {
                         Console.WriteLine("You did not accept the quest. Try again.");
-                        GetQuest();
+                        GetQuest(player);
                     }
                 }
             }
@@ -49,14 +46,14 @@ public class Quest
 
                     if (anwserQuest.ToLower() == "y")
                     {
-                        Console.WriteLine("You have accepted the quest.");
-                        playerQuests.Add(World.Quests[i]);
-                        //Player Location
+                        Console.WriteLine("You have accepted the quest. Go to Alchemist's garden(P).");
+                        player.playerQuests.Add(World.Quests[i]);
+                        //Player movement
                     }
                     else
                     {
                         Console.WriteLine("You did not accept the quest. Try again.");
-                        GetQuest();
+                        GetQuest(player);
                     }
                 }
             }
@@ -70,16 +67,54 @@ public class Quest
 
                     if (anwserQuest.ToLower() == "y")
                     {
-                        Console.WriteLine("You have accepted the quest.");
-                        playerQuests.Add(World.Quests[i]);
-                        //Player Location
+                        Console.WriteLine("You have accepted the quest. Go to Spider forest(S).");
+                        player.playerQuests.Add(World.Quests[i]);
+                        //Player movement
                     }
                     else
                     {
                         Console.WriteLine("You did not accept the quest. Try again.");
-                        GetQuest();
+                        GetQuest(player);
                     }
                 }
+            }
+        }
+        if (player.CurrentLocation == "G")
+        {
+            Console.WriteLine("“Turn back at once, peasant! Unless thee hast proof of thy grit.”");
+            if (player.questCompleted.Count == 2)
+            {
+                //Player movement
+            }
+            else
+            {
+                Console.WriteLine("You need to have finished the other two quests before passing the guard.");
+                //Player movement
+            }
+        }
+    }
+    public static void CompleteQuest(Player player)
+    {
+        for (int s = 0; s < player.playerQuests.Count; s++)
+        {
+            if (player.CurrentLocation == "V" && player.playerQuests[s].Name == "Clear the farmer's field")
+            {
+                //Three snakes fight
+                player.questCompleted.Add(player.playerQuests[s]);
+            }
+            else if (player.CurrentLocation == "P" && player.playerQuests[s].Name == "Clear the alchemist's garden")
+            {
+                //Three rats fight
+                player.questCompleted.Add(player.playerQuests[s]);
+            }
+            else if (player.CurrentLocation == "S" && player.playerQuests[s].Name == "Collect spider silk")
+            {
+                //Spider fight
+                //End
+            }
+            else
+            {
+                Console.WriteLine("You haven't accepted the quest.");
             }
         }
     }
