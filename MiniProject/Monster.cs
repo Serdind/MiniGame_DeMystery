@@ -6,7 +6,7 @@ public class Monster
     public int CurrentHitPoints;
     public int MaximumHitPoints;
 
-    public Monster(int id, string name, int maximumDamage, int currentHitPoints, string maximumHitPoints)
+    public Monster(int id, string name, int maximumDamage, int currentHitPoints, int maximumHitPoints)
     {
         ID = id;
         Name = name;
