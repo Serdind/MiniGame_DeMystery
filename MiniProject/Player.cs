@@ -38,18 +38,18 @@ public class Player
                     Console.WriteLine("Direction(N/E/S/W): ");
                     string direction = Console.ReadLine();
 
-                    if (player.CurrentLocation.Name == "Home" && direction == "N")
+                    if (player.CurrentLocation.Name == "Home" && direction.ToLower() == "n")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToNorth);
                         Console.WriteLine(player.CurrentLocation.Name);
                     }
-                    else if (player.CurrentLocation.Name == "Town square" && direction == "N")
+                    else if (player.CurrentLocation.Name == "Town square" && direction.ToLower() == "n")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToNorth);
                         Console.WriteLine(player.CurrentLocation.Name);
                         Quest.GetQuest(player);
                     }
-                    else if (player.CurrentLocation.Name == "Town square" && direction == "E")
+                    else if (player.CurrentLocation.Name == "Town square" && direction.ToLower() == "e")
                     {
                         Console.WriteLine("“Turn back at once, peasant! Unless thee hast proof of thy grit.”");
                         if (player.questCompleted.Count == 2)
@@ -63,66 +63,66 @@ public class Player
                             continue;
                         }
                     }
-                    else if (player.CurrentLocation.Name == "Town square" && direction == "S")
+                    else if (player.CurrentLocation.Name == "Town square" && direction.ToLower() == "s")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToSouth);
                         Console.WriteLine(player.CurrentLocation.Name);
                     }
-                    else if (player.CurrentLocation.Name == "Town square" && direction == "W")
+                    else if (player.CurrentLocation.Name == "Town square" && direction.ToLower() == "w")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToWest);
                         Console.WriteLine(player.CurrentLocation.Name);
                         Quest.GetQuest(player);
                     }
-                    else if (player.CurrentLocation.Name == "Farmhouse" && direction == "E")
+                    else if (player.CurrentLocation.Name == "Farmhouse" && direction.ToLower() == "e")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToEast);
                         Console.WriteLine(player.CurrentLocation.Name);
                     }
-                    else if (player.CurrentLocation.Name == "Farmhouse" && direction == "W")
+                    else if (player.CurrentLocation.Name == "Farmhouse" && direction.ToLower() == "w")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToWest);
                         Console.WriteLine(player.CurrentLocation.Name);
                         Quest.CompleteQuest(player);
                     }
-                    else if (player.CurrentLocation.Name == "Farmer's field" && direction == "E")
+                    else if (player.CurrentLocation.Name == "Farmer's field" && direction.ToLower() == "e")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToEast);
                         Console.WriteLine(player.CurrentLocation.Name);
                     }
-                    else if (player.CurrentLocation.Name == "Alchemist's hut" && direction == "N")
+                    else if (player.CurrentLocation.Name == "Alchemist's hut" && direction.ToLower() == "n")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToNorth);
                         Console.WriteLine(player.CurrentLocation.Name);
                         Quest.CompleteQuest(player);
                     }
-                    else if (player.CurrentLocation.Name == "Alchemist's hut" && direction == "S")
+                    else if (player.CurrentLocation.Name == "Alchemist's hut" && direction.ToLower() == "s")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToSouth);
                         Console.WriteLine(player.CurrentLocation.Name);
                     }
-                    else if (player.CurrentLocation.Name == "Alchemist's garden" && direction == "S")
+                    else if (player.CurrentLocation.Name == "Alchemist's garden" && direction.ToLower() == "s")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToSouth);
                         Console.WriteLine(player.CurrentLocation.Name);
                     }
-                    else if (player.CurrentLocation.Name == "Guard post" && direction == "W")
+                    else if (player.CurrentLocation.Name == "Guard post" && direction.ToLower() == "w")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToWest);
                         Console.WriteLine(player.CurrentLocation.Name);
                     }
-                    else if (player.CurrentLocation.Name == "Guard post" && direction == "E")
+                    else if (player.CurrentLocation.Name == "Guard post" && direction.ToLower() == "e")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToEast);
                         Console.WriteLine(player.CurrentLocation.Name);
                         Quest.GetQuest(player);
                     }
-                    else if (player.CurrentLocation.Name == "Bridge" && direction == "W")
+                    else if (player.CurrentLocation.Name == "Bridge" && direction.ToLower() == "w")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToWest);
                         Console.WriteLine(player.CurrentLocation.Name);
                     }
-                    else if (player.CurrentLocation.Name == "Bridge" && direction == "E")
+                    else if (player.CurrentLocation.Name == "Bridge" && direction.ToLower() == "e")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToEast);
                         Console.WriteLine(player.CurrentLocation.Name);
