@@ -1,8 +1,15 @@
 public class Program
 {
     public static void Main()
-    {
-        Player player = new Player(null,"G",null,1,1);
-        Quest.GetQuest(player);
+    { 
+        for (int i = 0; i < World.Locations.Count; i++)
+        {
+            if (World.Locations[i].Name == "Home")
+            {
+                Player player = new Player("Serdin", World.Locations[i], "Sword",1,1);
+
+                player.Movement(player);
+            }
+        }
     }
 }
