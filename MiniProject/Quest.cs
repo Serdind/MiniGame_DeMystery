@@ -106,37 +106,37 @@ public class Quest
         {
             if (player.CurrentLocation.Name == "Farmer's field" && player.playerQuests[s].Name == "Clear the farmer's field")
             {
-                //Three snakes fight
                 if (player.questCompleted.Contains(player.playerQuests[s]))
                 {
                     player.Movement(player);
                 }
                 else
                 {
+                    //Three snakes fight
                     player.questCompleted.Add(player.playerQuests[s]);
                 }
             }
             else if (player.CurrentLocation.Name == "Alchemist's garden" && player.playerQuests[s].Name == "Clear the alchemist's garden")
             {
-                //Three rats fight
                 if (player.questCompleted.Contains(player.playerQuests[s]))
                 {
                     player.Movement(player);
                 }
                 else
                 {
+                    //Three rats fight
                     player.questCompleted.Add(player.playerQuests[s]);
                 }
             }
             else if (player.CurrentLocation.Name == "Forest" && player.playerQuests[s].Name == "Collect spider silk")
             {
-                //Spider fight
                 if (player.questCompleted.Contains(player.playerQuests[s]))
                 {
                     player.Movement(player);
                 }
                 else
                 {
+                    //Spider fight
                     player.questCompleted.Add(player.playerQuests[s]);
                 }
                 //End
