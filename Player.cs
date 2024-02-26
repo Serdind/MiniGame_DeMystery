@@ -19,8 +19,14 @@ public class Player
     {
         double regeneration = MaximumHitPoints * 1.2;
         CurrentHitPoints += Convert.ToInt32(regeneration);
+        Console.WriteLine($"You now have {CurrentHitPoints} Health");
     }
 
+    public void FullHeal()
+    {
+        CurrentHitPoints = MaximumHitPoints;
+        Console.WriteLine($"You are back to max health");
+    }
     public void MoveTo()
     {
         pass
