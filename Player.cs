@@ -20,4 +20,9 @@ public class Player
         double regeneration = MaximumHitPoints * 1.2;
         CurrentHitPoints += Convert.ToInt32(regeneration);
     }
+
+    public void MoveTo()
+    {
+        pass
+    }
 }
