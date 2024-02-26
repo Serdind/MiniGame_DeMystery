@@ -14,4 +14,10 @@ public class Player
         CurrentHitPoints = currentHitPoints;
         MaximumHitPoints = maximumHitPoints;
     }
+
+    public void Regenerate()
+    {
+        double regeneration = MaximumHitPoints * 1.2;
+        CurrentHitPoints += Convert.ToInt32(regeneration);
+    }
 }
