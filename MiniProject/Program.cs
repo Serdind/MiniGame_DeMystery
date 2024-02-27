@@ -39,7 +39,7 @@ public class Program
                 }
             }
         }
-        Player player = new Player(playersName, CurrentLocation, CurrentWeapon,1,1);
+        Player player = new Player(playersName, CurrentLocation, CurrentWeapon,100,1);
         Console.WriteLine(CurrentLocation.Compass());
         player.Movement(player);
     }

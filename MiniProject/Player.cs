@@ -45,7 +45,7 @@ public class Player
                     if (direction.ToLower() == "q")
                     {
                         Console.WriteLine("You have succesfully quit the program.");
-                        return;
+                        Environment.Exit(0);
                     }
                     else if (player.CurrentLocation.Name == "Home" && direction.ToLower() == "n")
                     {

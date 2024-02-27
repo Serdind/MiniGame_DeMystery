@@ -128,7 +128,7 @@ public class Quest
                 }
                 else
                 {
-                    Fights.FarmersField();
+                    Fights.FarmersField(player);
                     player.questCompleted.Add(player.playerQuests[s]);
                 }
             }
@@ -141,7 +141,7 @@ public class Quest
                 }
                 else
                 {
-                    Fights.AlchemistGarden();
+                    Fights.AlchemistGarden(player);
                     player.questCompleted.Add(player.playerQuests[s]);
                 }
             }
@@ -154,7 +154,7 @@ public class Quest
                 }
                 else
                 {
-                    Fights.SpiderSilk();
+                    Fights.SpiderSilk(player);
                     Console.WriteLine("You have succesfully finished the game!");
                     Thread.Sleep(1000);
                     player.questCompleted.Add(player.playerQuests[s]);
