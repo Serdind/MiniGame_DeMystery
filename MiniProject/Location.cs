@@ -21,7 +21,6 @@ public class Location
 
     public string Compass()
     {
-        //Settings > Debug > Console: Collapse Identical Lines
         string s = "From here you can go:\n";
         if (LocationToNorth != null)
         {

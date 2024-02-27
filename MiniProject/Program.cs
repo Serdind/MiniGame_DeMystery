@@ -4,7 +4,6 @@ public class Program
 
     public static void Main()
     {
-<<<<<<< HEAD
         Console.WriteLine("Welcome to the Adventure Game!\n");
 
         Console.WriteLine("The people in your town are being terrorized by giant spiders.\n");
@@ -23,8 +22,6 @@ public class Program
 
         Console.Clear();
 
-        
-=======
         Location CurrentLocation = null;
         Weapon CurrentWeapon = null;
 
@@ -42,9 +39,8 @@ public class Program
                 }
             }
         }
-        Player player = new Player("Player", CurrentLocation, CurrentWeapon,1,1);
+        Player player = new Player(playersName, CurrentLocation, CurrentWeapon,1,1);
         Console.WriteLine(CurrentLocation.Compass());
         player.Movement(player);
->>>>>>> get_and_complete_quests
     }
 }
