@@ -6,9 +6,14 @@ public class Program
         {
             if (World.Locations[i].Name == "Home")
             {
-                Player player = new Player("Serdin", World.Locations[i], "Sword",1,1);
-
-                player.Movement(player);
+                for (int s = 0; s < World.Weapons.Count; s++)
+                {
+                    if (World.Weapons[i].Name == "Rusty sword")
+                    {
+                        Player player = new Player("Serdin", World.Locations[i], World.Weapons[i],1,1);
+                        player.Movement(player);
+                    }
+                }
             }
         }
     }
