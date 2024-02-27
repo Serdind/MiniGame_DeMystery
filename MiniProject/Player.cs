@@ -38,11 +38,16 @@ public class Player
                     Console.WriteLine("----------------------------------------------------");
                     Console.WriteLine($"Current location: {player.CurrentLocation.Name}");
                     Console.WriteLine("----------------------------------------------------");
-                    Console.WriteLine("Direction(N/E/S/W): ");
+                    Console.WriteLine("Direction(N/E/S/W): \nQ) Quit");
                     string direction = Console.ReadLine();
                     Thread.Sleep(1000);
 
-                    if (player.CurrentLocation.Name == "Home" && direction.ToLower() == "n")
+                    if (direction.ToLower() == "q")
+                    {
+                        Console.WriteLine("You have succesfully quit the program.");
+                        return;
+                    }
+                    else if (player.CurrentLocation.Name == "Home" && direction.ToLower() == "n")
                     {
                         player.TryMoveTo(player.CurrentLocation.LocationToNorth);
                     }
@@ -136,7 +141,11 @@ public class Player
                     }
                 }
             }
-            Console.WriteLine(player.CurrentLocation.Compass());
+            if (player.questCompleted.Count != 3)
+            {
+                Console.WriteLine(player.CurrentLocation.Compass());
+                Thread.Sleep(1000);
+            }
         }
     }
 }

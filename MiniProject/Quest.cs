@@ -128,7 +128,7 @@ public class Quest
                 }
                 else
                 {
-                    //Three snakes fight
+                    Fights.FarmersField();
                     player.questCompleted.Add(player.playerQuests[s]);
                 }
             }
@@ -141,7 +141,7 @@ public class Quest
                 }
                 else
                 {
-                    //Three rats fight
+                    Fights.AlchemistGarden();
                     player.questCompleted.Add(player.playerQuests[s]);
                 }
             }
@@ -154,8 +154,9 @@ public class Quest
                 }
                 else
                 {
-                    //Spider fight
-                    //End
+                    Fights.SpiderSilk();
+                    Console.WriteLine("You have succesfully finished the game!");
+                    Thread.Sleep(1000);
                     player.questCompleted.Add(player.playerQuests[s]);
                 }
             }

@@ -2,6 +2,9 @@ public class Program
 {
     public static void Main()
     {
+        Location CurrentLocation = null;
+        Weapon CurrentWeapon = null;
+
         for (int i = 0; i < World.Locations.Count; i++)
         {
             if (World.Locations[i].Name == "Home")
@@ -10,12 +13,14 @@ public class Program
                 {
                     if (World.Weapons[i].Name == "Rusty sword")
                     {
-                        Player player = new Player("Player", World.Locations[i], World.Weapons[i],1,1);
-                        Console.WriteLine(World.Locations[i].Compass());
-                        player.Movement(player);
+                        CurrentLocation = World.Locations[i];
+                        CurrentWeapon = World.Weapons[i];
                     }
                 }
             }
         }
+        Player player = new Player("Player", CurrentLocation, CurrentWeapon,1,1);
+        Console.WriteLine(CurrentLocation.Compass());
+        player.Movement(player);
     }
 }
