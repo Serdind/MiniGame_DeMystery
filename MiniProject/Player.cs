@@ -136,6 +136,7 @@ public class Player
                     }
                 }
             }
+            Console.WriteLine(player.CurrentLocation.Compass());
         }
     }
 }

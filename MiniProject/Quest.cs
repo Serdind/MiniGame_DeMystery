@@ -155,9 +155,9 @@ public class Quest
                 else
                 {
                     //Spider fight
+                    //End
                     player.questCompleted.Add(player.playerQuests[s]);
                 }
-                //End
             }
         }
     }

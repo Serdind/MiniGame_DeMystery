@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\serdi\\Desktop\\MiniGame\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj": {}
+    "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\serdi\\Desktop\\MiniGame\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj": {
+    "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\serdi\\Desktop\\MiniGame\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
+        "projectUniqueName": "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
         "projectName": "MiniProject",
-        "projectPath": "C:\\Users\\serdi\\Desktop\\MiniGame\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
-        "packagesPath": "C:\\Users\\serdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\serdi\\Desktop\\MiniGame\\MiniGame_DeMystery\\MiniProject\\obj\\",
+        "projectPath": "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
+        "packagesPath": "C:\\Users\\Serdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\serdi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Serdi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
