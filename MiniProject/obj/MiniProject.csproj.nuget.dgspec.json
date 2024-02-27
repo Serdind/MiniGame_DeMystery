@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj": {}
+    "C:\\Users\\miray\\OneDrive\\Masaüstü\\git\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj": {
+    "C:\\Users\\miray\\OneDrive\\Masaüstü\\git\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
+        "projectUniqueName": "C:\\Users\\miray\\OneDrive\\Masaüstü\\git\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
         "projectName": "MiniProject",
-        "projectPath": "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
-        "packagesPath": "C:\\Users\\Serdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Serdi\\Desktop\\Miniproject\\MiniGame_DeMystery\\MiniProject\\obj\\",
+        "projectPath": "C:\\Users\\miray\\OneDrive\\Masaüstü\\git\\MiniGame_DeMystery\\MiniProject\\MiniProject.csproj",
+        "packagesPath": "C:\\Users\\miray\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miray\\OneDrive\\Masaüstü\\git\\MiniGame_DeMystery\\MiniProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Serdi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\miray\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
